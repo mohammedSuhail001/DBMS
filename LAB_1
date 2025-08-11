@@ -21,3 +21,7 @@ age int,
 player_level int);
 alter table player modify name varchar(20);
 desc player;
+alter table player
+add( gender varchar(10));
+desc player;
+drop table attendance;
